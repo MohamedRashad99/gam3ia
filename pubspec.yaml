@@ -1,0 +1,34 @@
+name: jamaya
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  flutter_localizations:
+    sdk: flutter
+  get: 4.6.5
+  google_fonts: ^4.0.4
+  equatable: ^2.0.5
+  shared_preferences: ^2.0.15
+  sqflite_common_ffi: ^2.2.5
+  sqflite: ^2.2.8+4
+  device_preview: ^1.1.0
+  flutter_svg: ^2.0.7
+  skeletons: ^0.0.3
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter: 
+  assets:
+    - assets/images/png/icon.png
+    - assets/images/png/money.png
+  uses-material-design: true
+
